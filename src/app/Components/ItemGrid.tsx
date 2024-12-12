@@ -7,10 +7,10 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header>
-      <div className="flex justify-between items-center bg-yellow-200 py-4 px-6 sm:px-12 md:px-16">
+      <div className="flex justify-between items-center bg-yellow-200 py-4 px-6 sm:px-12 md:px-16 text-black">
         
         {/* Links Section */}
-        <div className="flex justify-center items-center gap-16 sm:gap-8 md:gap-12 lg:gap-16 flex-grow">
+        <div className="flex justify-center items-center gap-16 sm:gap-8 md:gap-12 lg:gap-16 flex-grow text-black">
           <Link href="/" className="text-lg hover:text-gray-700 transition-colors">
             Home
           </Link>
@@ -26,7 +26,7 @@ export default function Header() {
         </div>
 
         {/* Icons Section */}
-        <div className="flex items-center gap-4 sm:gap-6 md:gap-8">
+        <div className="flex items-center gap-4 sm:gap-6 md:gap-8 text-black">
           
           {/* Contact Icon */}
           <div>
